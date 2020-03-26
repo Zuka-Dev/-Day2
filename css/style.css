@@ -1,0 +1,40 @@
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+body {
+    background-image: url('giphy.gif');
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: auto;
+}
+#formn {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-height: 100%;
+    width: 50%;
+}
+@media screen and (max-width: 450px) {
+    body {
+        background-image: url('giphy.gif');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-size: 11px;
+    }
+    #formn {
+        max-height: 100%;
+        width: 50%;
+    }
+  }
+  footer{
+      position: relative;
+      top: 100%;
+  }
+ 
+  
